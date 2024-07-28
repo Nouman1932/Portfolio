@@ -2,10 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Metakidia from "../Images/MIband.jpg"
-import MainScreen from "../Images/MPPT.jpg"
-import react from "../Images/react.jpg"
-import arena from "../Images/arena.jpg"
+import MainScreen from "../Images/MPPTCheck.png"
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -18,52 +16,39 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Metakidia}
-              title="MetaKidia"
-              description="
-              MetaKidia is a comprehensive BLE Android application designed for seamless connections 
-              with MI bands. The app facilitates data retrieval from MI bands and presents it within 
-              the application. It further computes weekly averages based on the collected data and visualizes 
-              the averages through graphical representation. Additionally, the project integrates API with AWS 
-              Cognito for user authentication functionalities such as sign-up, login, and password reset"
-            />
-          </Col>
+      
 
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={MainScreen}
+              isBlog={false}
               title="MPPT LIVE"
               description="Introducing SolarApp, the cutting-edge mobile application that's transforming the 
               way you manage MPPT Controllers. Acting as the essential link between your smartphone and the 
               embedded Maximum Power Point Tracking (MPPT) device within your solar system, SolarApp is 
               revolutionizing solar system management."
+              ghLink="https://play.google.com/store/apps/details?id=com.mpptlive"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
-              imgPath={react}
-              title="Dashboard"
-              description="In one of my recent projects, I contributed to the enhancement of an existing web 
-              application by refining its UI and introducing new functionalities. Leveraging React.js and JSX, 
-              I collaborated to integrate Firebase API for cloud capabilities. The focal point of my work was revamping 
-              the admin dashboard, empowering administrators to efficiently monitor their mobile app's status while 
-              incorporating additional features for enhanced functionality and user experience"            
+              imgPath={MainScreen}
+              isBlog={false}
+              title="Raw APP"
+              description="Raw empowers content creators to grow their audience and visibility. Starting at Level 1, creators can share quick snippets or fun moments (30 sec). As they earn points from viewer ratings, they can advance to Level 2, where they can post short stories or clips (1 min). Reach 100 points to level up and gain increased exposure to viewers and brands.
+"
+              ghLink="https://play.google.com/store/apps/details?id=com.tnc.rawapp"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
-              imgPath={arena}
-              title="FYP ARENA BOOKING SYSTEM"
-              description="For my Final Year Project (FYP), I developed a web application using React.js 
-              that serves as a booking system for indoor sports enthusiasts. In this project, players can 
-              conveniently check the availability of indoor grounds near their location and reserve their 
-              preferred slots for gaming sessions. Additionally, I implemented an admin portal where 
-              administrators can review bookings and manage them, including the capability to cancel 
-              reservations if necessary."
+              imgPath={MainScreen}
+              isBlog={false}
+              title="Franoak Pics: Your Go-To Photo Editor"
+              description="Franoak Pics is a user-friendly photo editor designed to help you enhance your photos with ease. Whether you want to apply filters, crop images, or add blur effects, Franoak Pics offers a variety of tools to make your photos look stunning."
+              ghLink="https://play.google.com/store/apps/details?id=com.demo.shapicalphotoedit"
             />
           </Col>
         </Row>

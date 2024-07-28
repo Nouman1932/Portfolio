@@ -3,8 +3,12 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import profile from "./Images/profile.png";
+import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
+import { CgGitFork } from "react-icons/cg";
+import { ImBlog } from "react-icons/im";
 import {
+  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -94,7 +98,7 @@ function NavBar() {
 
             {/* <Nav.Item>
               <Nav.Link
-                href="https://noumanblogs.vercel.app/"
+                href="https://soumyajitblogs.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -104,7 +108,7 @@ function NavBar() {
 
             {/* <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/nouman1932/Portfolio"
+                href="https://github.com/soumyajit4419/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

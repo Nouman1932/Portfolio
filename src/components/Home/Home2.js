@@ -1,9 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import profile from "../Images/profile.png"
 import {
   AiFillGithub,
+  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -18,12 +20,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I'm <span className="purple"> Nouman Mahmood </span>, a passionate Android and React JS developer. Every day, I'm driven by my love for 
-            programming and the invaluable lessons it brings 🤷‍♂️
+            I'm <span className="purple"> Nouman Mahmood </span>, As a dedicated full-time mobile developer specializing in creating dynamic Android apps, I bring a wealth of experience to every project. With a strong background in designing and developing advanced apps, such as BLE for MI Band, Project App, and e-store solutions, I have worked on numerous projects involving Firebase API calls, Stripe payment methods, push notifications, and both short and long-term initiatives. Additionally, I have developed social media apps and handled backend tasks, including server-side deployment, cloud functions, and Stripe backend implementation in Node.js. 🤷‍♂️
               <br />
               <br />Skilled in core languages like 
               <i>
-                <b> <span className="purple"> Kotlin, Java, JavaScript, </span> alongside expertise in <span className="purple">  HTML, CSS,</span> and <span className="purple">XML</span></b>
+                <b> <span className="purple"> Kotlin, Java, JavaScript, JetPack Compose </span> alongside expertise in <span className="purple"> XML</span>. I bring a comprehensive understanding of modern development tools and frameworks to all my projects. <span className="purple"></span></b>
               </i>
               <br />
               <br />
@@ -69,7 +70,7 @@ function Home2() {
               </li>
               {/* <li className="social-icons">
                 <a
-                  href="https://twitter.com/nouman1932"
+                  href="https://twitter.com/Soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
